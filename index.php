@@ -15,12 +15,12 @@
 <body>
     <div class="container d-flex justify-content-center align-items-center">
         <div class="card py-5 px-3 text-center">
-        <form action="data.php" method="post">
-            <label for="username">Username:</label>
-            <input type="text" name="username" id="username">
+        <form action="data.php" method="post" >
+            <label for="text">text:</label>
+            <input type="text" name="text" id="text">
             <br>
-            <label for="password" class="my-3">password:</label>
-            <input type="password" name="password" id="password">
+            <label for="banword" class="my-3">ban word: </label>
+            <input type="text" name="banword" id="banword">
             <br>
             <button type="submit">Send</button>
             <button type="reset">Cancel</button>

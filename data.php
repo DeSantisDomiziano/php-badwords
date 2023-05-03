@@ -1,6 +1,6 @@
 <?php
 
-//var_dump($_POST);
+$text = $_POST['text'];
+$ban = $_POST['banword'];
 
-echo    'Username: ' . $_POST['username'] . ' ' . '(' . strlen($_POST['username']) . ')' .'<br>' 
-        . 'Password: ' . str_replace($_POST['password'], "***", $_POST['password']);;
+echo str_replace($ban, "***", $text);
